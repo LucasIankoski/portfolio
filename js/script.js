@@ -1,5 +1,4 @@
 function zoomProjeto(){
-    var projeto = document.getElementById('projeto');
     const popup = document.querySelector('.popup-projeto');
     popup.style.display = 'block';
     
@@ -8,4 +7,8 @@ function zoomProjeto(){
 function fecharZoomProjeto(){    
     const popup = document.querySelector('.popup-projeto');
     popup.style.display = 'none';
+}
+
+function acessarRepositorio(){
+    window.location.href = 'https://github.com/LucasIankoski/SnakeGame';
 }
